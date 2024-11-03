@@ -9,6 +9,8 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
+/* === CUSTOM PROPERTIES === */
+
 /* Desktops */
 section { padding: 4% 20% }
 
@@ -43,12 +45,14 @@ section { padding: 4% 20% }
 body {font-family:var(--global-font)}
 
 h2 {
-    font-size: var(--fs-xxxl);
+    font-family: var(--font-sans);
+    letter-spacing: -2px;
+    font-size: var(--fs-xxl);
     margin-bottom: 4px;
 }
 
 h3 {
-    font-size: var(--fs-xxl);
+    font-size: var(--fs-lg);
     margin-bottom: 4px;
 }
 

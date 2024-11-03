@@ -9,6 +9,8 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
+body { background-color: purple;
+
 
 /* ============= PADDING AROUND WEB PAGE BODY CONTENT ============= */
 
@@ -31,6 +33,7 @@ h1 {
     text-align: center;
     font-weight: normal;
     letter-spacing: 4px;
+    color: white;
 }
 
 h2 {
@@ -38,6 +41,7 @@ h2 {
     margin-bottom: 4px;
     margin-top: 54px;
     text-transform: uppercase;
+    color: white;
 }
 
 p {
@@ -45,4 +49,12 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+    color: white;
+}
+   
+    a {
+        color:  white;
+    }
+
+
 }
